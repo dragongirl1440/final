@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home | Tyrrell County, NC</title>
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <link href="scripts/main.css" rel="stylesheet">
+        <script src="scripts/main.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+              initialView: 'dayGridMonth'
+            });
+            calendar.render();
+          }); 
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark" aria-label="Main navigation">
+                <div class="container-fluid">
+                    <img src="images/logo.png" class="img-fluid" alt="logo">
+                    <a class="navbar-brand active h1 text-light" href="index.html" aria-current="page">Tyrrell County</a>
+                    <button class="navbar-toggler btn btn-outline-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="events.html">Events</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="forms.html">Forms</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="bills.html">Bills</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="boards.html">Boards</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+            </nav>
+        </header>
+
+        <main class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="container-fluid col">
+                        <img src="images/main-street.jpg" class="img-fluid align-self-center" alt="Main Street of Columbia in Tyrrell County, NC">
+                        <h1 class="align-center text-center">Welcome to Tyrrell County, North Carolina</h1>
+
+                        <p>Tyrrell County: nature's buffer zone, sprawled between the urban mainland and the popular stretch of North Carolina's Outer Banks.</p>
+
+                        <p>Tyrrell County is a diverse economic and ecological destination located between the northeast North Carolina urban mainland and the Outer Banks. Founded in 1729 and named for one of the Lord Proprietors, Tyrrell County hosts a special and abundant environment where red wolves howl and black bear and bobcats roam. Bald eagles and peregrine falcon soar over alligator and rose- crested orchids and pitcher plants. Commerce is also at home in Tyrrell County where world class agri-business and fishing helps feed the world and provides seeds for others to chart their economic harvests. The county hosts a wealth of water and land based ecotourism venues and is embraced by the Scuppernong and Alligator Rivers and the Albemarle Sound. The county is poised for residential, recreational and commercial growth and is aggressively finalizing the infrastructure necessary for multi-faceted development enhancing an already unparalleled quality of life.</p>
+
+                        <br>
+
+                        <h2 class="align-center">Calendar of Events</h2>
+
+                        <div class="w-100 align-content-center" id="calendar"></div>
+
+                        <p class="text-center">Calendar powered by <a href="https://fullcalendar.io/" target="_blank">FullCalendar</a>.</p>
+
+                        <br>
+
+                        <h2 class="align-center">External Credits</h2>
+
+                        <p>Main Street photo of Columbia, NC taken by <a href="https://www.flickr.com/photos/jstephenconn/5135621929/" target="_blank">J. Stephen Conn</a>.</p>
+                        <p>Picture of woman paying bills taken by <a href="https://unsplash.com/photos/-8a5eJ1-mmQ" target="_blank">Alexander Grey</a>.</p>
+                        <p>Layout inspiration taken from <a href="https://mdbootstrap.com/docs/standard/navigation/footer/" target="_blank">MDBootstrap</a>.</p>
+                </div>
+            </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-center text-white">
+          <div class="container p-4">
+            <div class="mb-4">
+              <a class="btn btn-outline-light m-1" href="https://www.facebook.com/login" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+
+              <a class="btn btn-outline-light m-1" href="https://www.twitters.com/login" target="_blank">
+                <i class="bi bi-twitter"></i>
+              </a>
+
+              <a class="btn btn-outline-light m-1" href="https://www.google.com" target="_blank">
+                <i class="bi bi-google"></i>
+              </a>
+
+              <a class="btn btn-outline-light m-1" href="https://www.linkedin.com/login" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+
+            <div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <p class="h5">About</p>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#" class="text-white">Budget</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="text-white">Community</a>
+                    </li>
+
+                    <li>
+                      <a href="events.html" class="text-white">Events</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="text-white">Jobs</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="text-white">Maps and GIS</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="text-white">Reserves and Refuges</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="text-white">Social Services</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="text-white">Water Quality and Rates</a>
+                    </li>
+                  </ul>
+                </div>
+
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <p class="h5">Forms</p>
+  
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#" class="text-white">Contact Us</a>
+                      </li>
+
+                      <li>
+                        <a href="forms.html" class="text-white">Forms and Applications</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">Registers of Deeds</a>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <p class="h5">Bills</p>
+  
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="bills.html" class="text-white">Pay Water Bills</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">Pay Home Bills</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <p class="h5">Policies</p>
+  
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#" class="text-white">Boards and Committees</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">County Departments</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">Emergency Management</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">Ordinances</a>
+                      </li>
+
+                      <li>
+                        <a href="policies.html" class="text-white">Personal Policies</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">Public Safety</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="text-white">Solid Waste Management</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center p-3">
+            <p>
+              <a class="text-light" href="tel:+2527961371">(252) 796-1371</a><br>
+              108 S. Water St.<br>
+              P. O. Box 449<br>
+              Columbia, NC 27925
+            </p>
+          </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
